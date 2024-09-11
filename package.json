@@ -1,0 +1,17 @@
+{
+	"name": "videoconverter",
+	"version": "1.0.0",
+	"description": "",
+	"main": "test.js",
+	"scripts": {
+		"start": "node test.js",
+		"package": "zip -r -o function.zip . -x test.js package-lock.json package.json template.yml",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"fluent-ffmpeg": "^2.1.3"
+	}
+}
