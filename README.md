@@ -13,6 +13,7 @@ This is a lamda function which can use for convert s3 bucket video file into HLS
 4. Copy this source code as a lambda function. you can create zip file of this code and upload to AWS Lambda.
 
 5. Add Layer for your Lambda function and give the ffmpeg.zip file.
+   you can download ffmpeg.zip file [here]("https://drive.google.com/file/d/15Nx9tPgG3Mdb3HHgtRff8sgtSLT4Cl4k/view?usp=sharing")
 
 6. Add the new trigger for Lambda function and select one of erliear created S3 bucket as a target.
 
